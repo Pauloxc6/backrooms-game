@@ -54,3 +54,4 @@ CREATE TABLE IF NOT EXISTS `data` (
   CONSTRAINT `data_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
 );
 ```
+Boa parte feita com chat-gpt!
