@@ -1,0 +1,142 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 70%;
+    max-width: 800px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    position: relative; /* Necessário para alinhar o h1 e logout */
+    display: inline-block;
+}
+
+h1, h2 {
+    color: #00ff00;
+    margin-bottom: 20px;
+}
+
+/* Alinhar o h1 no canto superior esquerdo */
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+}
+
+/* Alinhar o link de logout no canto superior direito */
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #121212;
+    color: #00ff00;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+#register {
+    position: absolute;
+    bottom: 10px;
+}
+
+label {
+    display: block;
+    color: #cccccc;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff00;
+    color: #222222;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00cc00;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #333333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo específico para a página de jogo */
+.level-description {
+    margin: 20px 0;
+}
+
+.level-actions {
+    margin: 20px 0;
+}
+
+textarea {
+    height: 100px;
+}
+
+.output {
+    color: #00ff00;
+    margin-top: 20px;
+}
+

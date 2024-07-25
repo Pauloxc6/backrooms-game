@@ -1,0 +1,154 @@
+/* Estilo básico do corpo da página */
+body {
+    font-family: monospace;
+    background-color: #121212;
+    color: #00FF00;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 0;
+    color: #00FF00;
+}
+
+/* Estilo do formulário de login e registro */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilo dos rótulos do formulário */
+label {
+    margin: 10px 0;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #00FF00;
+    background-color: #1a1a1a;
+    color: #00FF00;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #00FF00;
+}
+
+/* Estilo do botão de submit */
+button {
+    background-color: #1a1a1a;
+    color: #00FF00;
+    border: 1px solid #00FF00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #00FF00;
+    color: #121212;
+}
+
+/* Estilo da mensagem de erro */
+p {
+    color: #FF0000;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilo dos links de navegação */
+a {
+    display: block;
+    margin-top: 20px;
+    color: #00FF00;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo dos links de logout e voltar */
+#logout, #games {
+    position: absolute;
+    background-color: #1a1a1a;
+    color: #00FF00;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #00FF00;
+}
+
+#logout {
+    top: 10px;
+    right: 10px;
+}
+
+#games {
+    top: 10px;
+    left: 10px;
+}
+
+#logout:hover {
+    background-color: #00FF00;
+    color: #121212;
+    text-decoration: underline;
+}
+
+#games:hover {
+    background-color: #00FF00;
+    color: #121212;
+    text-decoration: underline;
+}
+
+/* Estilo do contêiner do terminal */
+.terminal {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo da área de saída do terminal */
+#output {
+    flex: 1;
+    overflow-y: auto;
+    white-space: pre;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border: 1px solid #00FF00;
+}
+
+/* Estilo do formulário de comando */
+#commandForm {
+    display: flex;
+}
+
+/* Estilo do campo de entrada de comando */
+#command {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #121212;
+    color: #00FF00;
+}
+
+#command:focus {
+    outline: none;
+}
+
